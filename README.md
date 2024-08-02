@@ -25,5 +25,28 @@ Number Conversion Service API Documentation
     npm install -g newman
     ```
 
+# Generating HTML Reports with Newman
+
+To generate detailed HTML reports, you can use the `newman-reporter-htmlextra` reporter.
+
+## Prerequisites
+
+Install the `newman-reporter-htmlextra` reporter globally via npm:
+
+```sh
+npm install -g newman-reporter-htmlextra
+```
+# Running Tests and Generating HTML Reports
+
+To execute the tests and generate an HTML report, follow these steps:
+
+## Command to Run Tests and Generate HTML Reports
+
+Run the following command in your terminal:
+
+```sh
+newman run Py3x_ATB API Testing Porject#1.postman_collection.json -r cli,htmlextra
+```
+
 ## NEWMAN Report
 ![image](https://github.com/user-attachments/assets/de150e41-0e47-4dd5-9b10-d63fe22b5a48)
